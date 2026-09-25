@@ -34,4 +34,3 @@ All at the top of each `main.cpp`:
 
 - Bring BLE MIDI into the ESP32-C3 firmware, so the pictured unit sends MIDI
   and keeps its screen.
-- Send CCs in mode 7 (off) so channel 8 is usable.

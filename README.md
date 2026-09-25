@@ -85,7 +85,7 @@ and a mode switch, readable by anything that takes MIDI or serial.
 | # | Control | On the matrix | BLE MIDI variant |
 |:-:|---------|---------------|------------------|
 | 1 | Joystick X / Y | Position of the lit block | CC 1 / CC 2 |
-| 2 | Joystick press | Next colour mode (8 modes) | Channel = mode (1–8) |
+| 2 | Joystick press | Next colour mode (8 modes) | Channel = mode (1–7) |
 | 3 | Potentiometer | Brightness | CC 3 |
 | 4 | Slider 1 | Block size, 1×1 to 8×8 | CC 4 |
 | 5 | Slider 2 | Strobe frequency, 1–20 Hz | CC 5 |
@@ -110,7 +110,7 @@ whole session.
 | 4 | Blue | 5 |
 | 5 | Strobe white | 6 |
 | 6 | Strobe fade | 7 |
-| 7 | Off | 8 (nothing is sent, see [MIDI](docs/MIDI.md)) |
+| 7 | Off, matrix dark, no output | none |
 
 ## Build
 

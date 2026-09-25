@@ -29,9 +29,8 @@ sent at once, so the host receives the current state on the new channel.
 
 ## Known behaviour
 
-- **Mode 7 (off) sends nothing.** The draw function returns before the MIDI
-  block when the matrix is off, so channel 8 never carries data. Channels 1–7
-  are usable.
+- **Mode 7 is off:** the matrix goes dark and no MIDI is sent. Channels 1–7
+  carry the CCs.
 - Joystick centre is calibrated at power-up. Do not touch the joystick while
   the board boots.
 
