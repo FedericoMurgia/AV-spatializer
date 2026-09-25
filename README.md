@@ -116,14 +116,21 @@ whole session.
 
 ### Bill of materials
 
-- ESP32-C3 board with onboard 0.42" 72×40 SSD1306 OLED (I²C on GPIO 5/6) for
-  the beta unit, **or** a classic ESP32 dev board for the BLE MIDI variant
-- 8×8 WS2812B matrix
-- 2-axis analog thumb joystick with push button
-- 1 rotary potentiometer, 2 slide potentiometers
-- Frosted / opal acrylic for the diffuser
-- Filament for the two enclosure parts
-- Hook-up wire, USB cable
+| # | Component | Spec / Notes | Qty |
+|---|-----------|--------------|:---:|
+| 1 | Microcontroller | ESP32-C3 board with onboard 0.42" 72×40 SSD1306 OLED (C3 beta), **or** classic ESP32 dev board (BLE MIDI variant) | 1 |
+| 2 | LED matrix | WS2812B 8×8 panel (64 LEDs) | 1 |
+| 3 | OLED display | C3 beta only, onboard on the board above. The BLE MIDI variant has no screen | (1) |
+| 4 | Analog joystick | KY-023 or equivalent (X/Y + button) | 1 |
+| 5 | Potentiometer | 10 kΩ, panel-mount rotary | 1 |
+| 6 | Slider potentiometer | 10 kΩ linear, panel-mount | 2 |
+| 7 | Resistor | 330–470 Ω (WS2812 data line) | 1 |
+| 8 | Capacitor | 100–1000 µF / 6.3 V (power decoupling on LED matrix VCC) | 1 |
+| 9 | USB cable | Matching the board's USB connector | 1 |
+| 10 | Enclosure | 3D printed, STLs in [`hardware/enclosure/`](hardware/enclosure/) | 1 |
+| 11 | Wiring | 22–26 AWG hookup wire, various | — |
+| 12 | PCB or perfboard | For mounting and connecting components | 1 |
+| 13 | Diffuser | Frosted / opal acrylic over the matrix | 1 |
 
 ### Wiring
 
