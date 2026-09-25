@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# PlatformIO / editors
+.pio/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Build / temp
+*.tmp
+*.bak
